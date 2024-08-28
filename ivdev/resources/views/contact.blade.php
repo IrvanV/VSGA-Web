@@ -13,5 +13,17 @@
     <a href="/blog">Blog</a>
     <a href="/contact">Contact</a>
     <h1>Contact Me</h1>
+
+    <ul>
+        <li>
+            <a href="https://instagram.com/irvanvebriansyah">Instagram</a>
+        </li>
+        <li>
+            <a href="https://facebook.com/Irvan Vebriansyah">Facebook</a>
+        </li>
+        <li>
+            <a href="https://tiktok.com/irvan.vebri">TikTok</a>
+        </li>
+    </ul>
 </body>
 </html>

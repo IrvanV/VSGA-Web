@@ -13,8 +13,9 @@
     <a href="/blog">Blog</a>
     <a href="/contact">Contact</a>
 
-    <h1>Lorem ipsum dolor sit amet.</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+    <article>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Nostrum, velit possimus, unde maxime molestiae nam eius harum tempora, 
         veniam explicabo eligendi omnis blanditiis qui itaque. 
         Placeat eligendi pariatur maiores veniam, 
@@ -27,5 +28,7 @@
         vel eos atque saepe aliquid dolore quisquam, 
         distinctio quae debitis amet maxime rem enim nam doloremque! 
         Odio provident voluptas qui cum non.</p>
+    </article>
+    
 </body>
 </html>
