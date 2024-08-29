@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+<x-layout>
+    <x-slot:title>{{ $title }}</x-slot:title>
+    <h3 class="text-xl">Ini adalah halaman About IVDEV</h3>
+
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,12 +12,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <a href="/home">Home</a>
-    <a href="/about">About</a>
-    <a href="/blog">Blog</a>
-    <a href="/contact">Contact</a>
     <h1>Welcome to halaman About IVDEV</h1>
-    <h3>Owner: {{$nama}}</h3>
+    <h3>Owner: Irvan Vebriansyah</h3>
     <img src="img/IVDEV.jpg" alt="Irvan Developer" width="200">
 </body>
 </html>
+
+  </x-layout>

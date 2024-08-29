@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,11 +8,6 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <a href="/home">Home</a>
-    <a href="/about">About</a>
-    <a href="/blog">Blog</a>
-    <a href="/contact">Contact</a>
-    <h1>Contact Me</h1>
 
     <ul>
         <li>
@@ -26,4 +21,20 @@
         </li>
     </ul>
 </body>
-</html>
+</html> --}}
+
+<x-layout>
+    <x-slot:title>{{ $title }}</x-slot:title>
+    <h3 class="text-xl">Silahkan hubungi kami</h3>
+    <ul>
+        <li>
+            <a href="https://instagram.com/irvanvebriansyah">Instagram</a>
+        </li>
+        <li>
+            <a href="https://facebook.com/Irvan Vebriansyah">Facebook</a>
+        </li>
+        <li>
+            <a href="https://tiktok.com/irvan.vebri">TikTok</a>
+        </li>
+    </ul>
+  </x-layout>
